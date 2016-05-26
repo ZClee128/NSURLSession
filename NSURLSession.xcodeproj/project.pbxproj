@@ -15,6 +15,8 @@
 		9BC012611CF73665006135F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC0125F1CF73665006135F1 /* LaunchScreen.storyboard */; };
 		9BC0126C1CF73666006135F1 /* NSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0126B1CF73666006135F1 /* NSURLSessionTests.m */; };
 		9BC012771CF73666006135F1 /* NSURLSessionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC012761CF73666006135F1 /* NSURLSessionUITests.m */; };
+		9BC012861CF736A2006135F1 /* HttpSwssion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC012851CF736A2006135F1 /* HttpSwssion.m */; };
+		9BC0128A1CF757C7006135F1 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC012891CF757C7006135F1 /* boy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9BC012721CF73666006135F1 /* NSURLSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC012761CF73666006135F1 /* NSURLSessionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionUITests.m; sourceTree = "<group>"; };
 		9BC012781CF73666006135F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC012841CF736A2006135F1 /* HttpSwssion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSwssion.h; sourceTree = "<group>"; };
+		9BC012851CF736A2006135F1 /* HttpSwssion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSwssion.m; sourceTree = "<group>"; };
+		9BC012891CF757C7006135F1 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		9BC012501CF73665006135F1 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
+				9BC012891CF757C7006135F1 /* boy.png */,
 				9BC012541CF73665006135F1 /* AppDelegate.h */,
 				9BC012551CF73665006135F1 /* AppDelegate.m */,
 				9BC012571CF73665006135F1 /* ViewController.h */,
 				9BC012581CF73665006135F1 /* ViewController.m */,
+				9BC012841CF736A2006135F1 /* HttpSwssion.h */,
+				9BC012851CF736A2006135F1 /* HttpSwssion.m */,
 				9BC0125A1CF73665006135F1 /* Main.storyboard */,
 				9BC0125D1CF73665006135F1 /* Assets.xcassets */,
 				9BC0125F1CF73665006135F1 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC012611CF73665006135F1 /* LaunchScreen.storyboard in Resources */,
+				9BC0128A1CF757C7006135F1 /* boy.png in Resources */,
 				9BC0125E1CF73665006135F1 /* Assets.xcassets in Resources */,
 				9BC0125C1CF73665006135F1 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +281,7 @@
 			files = (
 				9BC012591CF73665006135F1 /* ViewController.m in Sources */,
 				9BC012561CF73665006135F1 /* AppDelegate.m in Sources */,
+				9BC012861CF736A2006135F1 /* HttpSwssion.m in Sources */,
 				9BC012531CF73665006135F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
